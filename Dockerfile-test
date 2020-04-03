@@ -1,6 +1,1 @@
 FROM jupincu/centos-baota-base
-WORKDIR /home/headless
-RUN wget --no-check-certificate -O ./hitleap.tar.xz https://f000.backblazeb2.com/file/wpimgs/hit/HitLeapViewer.tar.xz
-RUN xz -d ./hitleap.tar.xz
-RUN tar -xvf ./hitleap.tar
-
