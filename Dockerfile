@@ -1,1 +1,1 @@
-FROM jupincu/centos-baota-base
+FROM jupincu/centos-baota-base:latest
